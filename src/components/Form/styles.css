@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;600&display=swap');
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(1, 1, 0, 0.47);
+    max-width: 15rem;
+    margin: auto;
+    padding: 1rem;
+  }
+  
+  .container h3 {
+    text-align: center;
+    color: white;
+    font-family: 'Quicksand', sans-serif;
+  }
+  
+  .form {
+    display: flex;
+    flex-direction: column;
+    max-width: 15rem;
+  }
+  
+  .form input {
+    padding: 0.5rem;
+    margin-bottom: 0.25rem;
+    background-color: rgba(1, 1, 0, 0.87);
+    border: none;
+    outline: none;
+    color: white;
+    font-family: 'Quicksand', sans-serif;
+  }
+  
+  .form label {
+    margin-bottom: 0.5rem;
+  }
+  
+  .form button {
+    cursor: pointer;
+    border: none;
+    padding: 0.5rem;
+    color: white;
+    background-color: rgba(255, 0, 0, 0.671);
+    font-variant: small-caps;
+    font-family: 'Quicksand', sans-serif;
+  }
+  
+  .pokecontainer {
+    border: 1px solid rgba(255, 255, 255, 0.671);
+    padding: 1rem;
+    margin-top: 0.5rem;
+    position: relative;
+  }
+  
+  .pokeinfochoose {
+    color: white;
+    background-color: rgba(1, 1, 0, 0.712);
+    position: absolute;
+    top: -9px;
+    font-size: 0.90rem;
+    font-family: 'Quicksand', sans-serif;
+  }
+  
+  .pokechoose label {
+    margin-left: 0.5rem;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bold;
+  }
+  
+    .red {
+      color: rgb(255, 123, 0);}
+  
+    .green {
+      color: rgb(104, 211, 104);}
+  
+    .blue {
+      color: rgb(129, 194, 219);}
+  
+  .pokeinfo {
+    color: white;
+    margin-bottom: 0.25rem;
+    font-family: 'Quicksand', sans-serif;
+  }
+  
+  .pokeregion {
+    background-color: rgba(0, 0, 0, 0.699);
+    color: white;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.error {
+    color: white;
+    margin: 0.25rem 0 0.25rem 0;
+    font-size: 0.75rem;
+  }

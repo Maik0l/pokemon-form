@@ -1,11 +1,30 @@
-.container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+html,
+body,
+figure,
+div,
+input,
+textarea,
+a,
+p,
+h1 {
+  margin: 0;
+  padding: 0;
+  border: none;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
 }
 
-.form {
-  display: flex;
-  flex-direction: column;
-  max-width: 15rem;
+.background {
+  background-image: url('../src/assets/img/background.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+}
+
+@media only screen and (min-width: 768px) {
+  .background {
+    display: flex;
+  }
 }
